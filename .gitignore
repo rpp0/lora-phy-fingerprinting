@@ -1,0 +1,7 @@
+*.pyc
+trained_models/
+plot.py
+labview_to_numpy.py
+toy/
+lora_capture_samples.grc
+lora_capture_samples.py
