@@ -35,6 +35,7 @@ cd ..
 for i in ${experiments[@]}
 do
     #rm -f /tmp/randomized_mongo
+    sudo systemctl restart mongodb  # Fix caching memory issue
     ./tf_train.py test conf/$i
     cat /tmp/tmp_result >> /tmp/table3.tex
 done

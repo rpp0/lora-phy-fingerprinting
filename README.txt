@@ -39,7 +39,7 @@ D3) Scripts and how-tos for all experiments executed for the paper
 See: ./runExperiments.sh
 
 E) Additional notes
-- The Results_1 folder contains results not mentioned in tables or figures.
+- The Results_1 and Results_2 folders contain results not mentioned in tables or figures.
 
 - Each run of tf_train.py will parse the raw samples in the MongoDB and perform normalization, fft, etc. for each symbol. Therefore, running the experiments could take a while. To reduce the time taken, all samples were pre-randomized in the database and the models are pre-trained.
 
